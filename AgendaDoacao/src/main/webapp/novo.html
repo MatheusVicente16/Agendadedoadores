@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+<meta charset="utf-8">
+<title>Agenda de Doações</title>
+<link rel="icon" href="img/gota.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Cadastrar novo doador</h1>
+	<form name="frmContato" action="insert">
+		<table align="center">
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome"
+					class="Caixa1"></td>
+			</tr>
+
+			<tr>
+				<td><input type="text" name="tipo" placeholder="Tipo Sanguíneo"
+					class="Caixa1"></td>
+			</tr>
+
+			<tr>
+				<td><input type="text" name="fone" placeholder="Fone"
+					class="Caixa2"></td>
+			</tr>
+
+			<tr>
+				<td><input type="text" name="email" placeholder="E-mail"
+					class="Caixa1"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="Botao1 alinharbotao"
+			onclick="validar()">
+	</form>
+	<p></p>
+	<img src="img/MOD.png" class="alinharimg">
+
+	<a href="index.html" class="Botao1">Home</a>
+
+	<footer>
+		<p class="footer">Matheus Rodrigues Vicente - 2022</p>
+	</footer>
+
+	<script src="scripts/validador.js"></script>
+</body>
+
+</html>
